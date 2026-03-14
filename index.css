@@ -1,0 +1,66 @@
+body{
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+
+#topicsContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.topics{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.topics.active{
+    border: 3px solid blue;
+    background: #dae0ea;
+}
+
+#qno{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+#inp{
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+}
+
+.questionsNo{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#submitbtn{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(2, 158, 59);
+    border: 1px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btntxt{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0%;
+}
